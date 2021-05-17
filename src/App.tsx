@@ -1,12 +1,13 @@
 import React from "react";
 import './main.global.css'
 import {hot} from 'react-hot-loader/root';
-import {Layout} from "./shared/Layout/Layout";
+import {Layout} from "./shared/Layout";
+import {Header} from "./shared/Header";
 
 function AppComponent() {
     return (
         <Layout>
-            Content
+            <Header/>
         </Layout>
     );
 }
